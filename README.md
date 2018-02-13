@@ -1,7 +1,7 @@
 About pytest-arraydiff
 ======================
 
-Home: https://github.com/astropy/pytest-arraydiff
+Home: https://github.com/astrofrog/pytest-arraydiff
 
 Package license: BSD
 
