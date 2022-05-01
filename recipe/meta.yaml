@@ -19,13 +19,13 @@ build:
 
 requirements:
   build:
-    - python>=3.7
+    - python >=3.7
     - pip
     - pytest
     - numpy
     - six
   run:
-    - python>=3.7
+    - python >=3.7
     - pytest
     - numpy
     - six
@@ -36,7 +36,7 @@ test:
 
 about:
   home: {{ git_url }}
-  license: BSD
+  license: BSD-3-Clause
   summary: 'pytest plugin to help with comparing array output from tests'
   description: |
     This is a py.test plugin to facilitate the generation and comparison of
