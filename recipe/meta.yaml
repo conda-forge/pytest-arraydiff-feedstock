@@ -44,6 +44,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - astrofrog-conda-forge
+    - astrofrog
     - drdavella
     - mwcraig
