@@ -1,7 +1,7 @@
 {% set name = "pytest-arraydiff" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.1" %}
 {% set git_url = "https://github.com/astrofrog/pytest-arraydiff" %}
-{% set sha256 = "714149beffd0dfa085477c65791c1139b619602b049536353ce1a91397fb3bd2" %}
+{% set sha256 = "2937b1450fc935620f24709d87d40c67e055a043d7b8541a25fdfa994dda67de" %}
 
 package:
   name: {{ name|lower }}
