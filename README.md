@@ -3,15 +3,15 @@ About pytest-arraydiff-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-arraydiff-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/astrofrog/pytest-arraydiff
+Home: https://github.com/astropy/pytest-arraydiff
 
 Package license: BSD-3-Clause
 
 Summary: pytest plugin to help with comparing array output from tests
 
-Development: https://github.com/astrofrog/pytest-arraydiff
+Development: https://github.com/astropy/pytest-arraydiff
 
-Documentation: https://github.com/astrofrog/pytest-arraydiff
+Documentation: https://github.com/astropy/pytest-arraydiff
 
 This is a py.test plugin to facilitate the generation and comparison of
 data arrays produced during tests.
