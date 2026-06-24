@@ -1,7 +1,7 @@
 {% set name = "pytest-arraydiff" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.0" %}
 {% set git_url = "https://github.com/astropy/pytest-arraydiff" %}
-{% set sha256 = "2937b1450fc935620f24709d87d40c67e055a043d7b8541a25fdfa994dda67de" %}
+{% set sha256 = "70e2a9183af5b4f05f694727beb30eb5fc6712632b240ef259ec60984a629b1a" %}
 
 package:
   name: {{ name|lower }}
@@ -9,12 +9,12 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
